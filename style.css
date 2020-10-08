@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(238, 237, 237);
+    width: 100wh;
+    font-family: 'Roboto', sans-serif;
+}
+span{
+    font-weight: bold;
+}
+.header{
+    text-align: center;
+    margin-left: -15%;
+    background-color: white;
+    padding-top: 0.4rem;
+    height: 3.4rem;
+}
+.header p{
+    justify-content: center;
+    font-size: 2rem;
+    margin: 0rem;
+}
+.post{
+    border-radius: 0.44px;
+    background: white;
+    margin-top: 3rem;
+    margin-bottom: 1.875rem;
+    width: 36rem;
+    height: 34.38rem;
+    display: flex;
+    flex-direction: column;
+}
+.postHeader{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    font-size: 1.25rem;
+}
+.postSection img{
+    width: 36rem;
+    height: 25rem;
+}
+.Date p{
+    color: gray;
+}
+.postFooter{
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    text-align: justify;
+    font-size: 1.125rem;
+}
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
